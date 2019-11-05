@@ -1,0 +1,90 @@
+.App {
+  /* font-family: 'Staatliches', cursive; */
+  font-family: 'Fugaz One', cursive;
+  text-align: center;
+
+  color: #3a332c;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mallName {
+  color:#2c6552;
+  font-size: 45px;
+
+  margin-bottom: 0;
+}
+
+#shoppingCart {
+  color: #ccd0cf; 
+  font-size: 30px;
+
+  margin: 13px;
+}
+
+label {
+  color: #ccd0cf;
+}
+
+.product {
+  background: white;
+  position: relative;
+
+  border: 7px solid #e5d7ba;
+  border-radius: 3px;
+  border-top: none;
+  border-bottom: none;
+
+  width: 360px;
+  height: 500px;
+  margin: 30px;
+
+  text-align: center;
+}
+
+.img {
+  position: absolute;
+  top: 60px;
+  left: 17%;
+
+  width: 240px;
+  height: 240px;
+}
+
+.item {
+  font-size: 25px;
+  position: absolute;
+  top: 20px;
+ 
+
+  width: 360px;
+}
+
+.description {
+  position: absolute;
+  top: 310px; 
+  width: 360px;
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+}
+
+.option {
+  position: absolute;
+  top: 380px; 
+  width: 360px;
+  font-family: 'Fugaz One', cursive;
+  font-size: 18px;
+}
+
+.price {
+  position: absolute;
+  top: 430px;
+  width: 360px;
+  font-family: 'Bad Script', cursive;
+  font-size: 20px;
+}
+
+
